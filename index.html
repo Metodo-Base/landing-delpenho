@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clínica Del Penho | Clínica Médica e Multidisciplinar em Muriaé</title>
+<meta name="description" content="Há mais de 40 anos cuidando da saúde de Muriaé. Coloproctologia, Centro de Tratamento da Obesidade, Endocrinologia, Nutrologia, Nutrição e Clínica Geral. Agende pelo WhatsApp.">
+<meta property="og:title" content="Clínica Del Penho — Saúde, cuidado e confiança há +40 anos">
+<meta property="og:description" content="Clínica médica e multidisciplinar em Muriaé. Agende sua consulta.">
+<!-- Depois do deploy: troque SEU-DOMINIO pelo endereço final (ex.: clinicadelpenho.vercel.app).
+     O WhatsApp e o Instagram só mostram a foto de prévia do link com URL absoluta. -->
+<meta property="og:url" content="https://SEU-DOMINIO/">
+<meta property="og:image" content="https://SEU-DOMINIO/img/equipe-hero.jpg">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://SEU-DOMINIO/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f2a4a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Clínica Del Penho",
+  "description": "Clínica médica e multidisciplinar",
+  "telephone": "+55-32-3721-4123",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua São Pedro, 192",
+    "addressLocality": "Muriaé",
+    "addressRegion": "MG",
+    "addressCountry": "BR"
+  },
+  "medicalSpecialty": ["Coloproctology", "Endocrinology", "Nutrition", "GeneralPractice"],
+  "sameAs": ["https://www.instagram.com/clinica.delpenho/"]
+}
+</script>
+<style>
+  :root{
+    --navy:#0f2a4a;
+    --navy-2:#173a63;
+    --slate:#3c5562;
+    --slate-soft:#e7edf0;
+    --silver:#b9c3ca;
+    --ink:#1b2530;
+    --muted:#5b6873;
+    --bg:#fbfaf7;
+    --white:#ffffff;
+    --accent:#2f7fa8;
+    --wa:#1fa855;
+    --radius:18px;
+    --shadow:0 18px 40px -22px rgba(15,42,74,.35);
+    --max:1160px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Manrope",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.1;color:var(--navy)}
+  h2{font-size:clamp(2rem,4.2vw,3rem);margin-bottom:14px}
+  h3{font-size:1.55rem}
+  .eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  .lead{color:var(--muted);font-size:1.08rem;max-width:620px}
+  section{padding:88px 0;scroll-margin-top:60px}
+
+  /* Botões */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:1rem;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:0}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-wa{background:var(--wa);color:#fff;box-shadow:0 12px 26px -12px rgba(31,168,85,.7)}
+  .btn-wa:hover{background:#178f47}
+  .btn-ghost{border:1.5px solid currentColor;color:var(--navy)}
+  .btn-light{border:1.5px solid rgba(255,255,255,.6);color:#fff}
+  .btn svg{width:20px;height:20px;flex:none}
+
+  /* Header */
+  header{position:sticky;top:0;z-index:50;background:rgba(251,250,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(15,42,74,.08)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .logo{display:flex;align-items:center;gap:10px;color:var(--navy)}
+  .logo svg{width:40px;height:40px}
+  .logo b{display:block;font-family:"Manrope";font-weight:800;font-size:1.3rem;letter-spacing:-.01em;line-height:1}
+  .logo small{display:block;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-top:3px}
+  .menu{display:flex;gap:28px;font-weight:600;font-size:.95rem;color:var(--slate)}
+  .menu a:hover{color:var(--navy)}
+  .nav .btn{padding:11px 20px;font-size:.92rem}
+  @media(max-width:1100px){.menu{display:none}}
+  @media(max-width:480px){.nav .btn span{display:none}.nav .btn{padding:11px 13px}}
+
+  /* Hero */
+  .hero{padding:56px 0 80px;background:
+      radial-gradient(1200px 500px at 90% -10%, rgba(47,127,168,.10), transparent 60%),
+      var(--bg)}
+  .hero-grid{display:grid;grid-template-columns:1.02fr 1fr;gap:56px;align-items:center}
+  .hero h1{font-size:clamp(2.6rem,5.6vw,4.4rem);margin-bottom:20px}
+  .hero h1 em{font-style:italic;color:var(--accent)}
+  .hero .lead{margin-bottom:30px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+  .hero-proof{display:flex;gap:30px;flex-wrap:wrap}
+  .hero-proof div{border-left:2px solid var(--silver);padding-left:14px}
+  .hero-proof strong{display:block;font-family:"Cormorant Garamond",serif;font-size:2rem;color:var(--navy);line-height:1}
+  .hero-proof span{font-size:.86rem;color:var(--muted)}
+  .hero-photo{position:relative}
+  .hero-photo img{border-radius:24px;box-shadow:var(--shadow);aspect-ratio:3/2;object-fit:cover;object-position:50% 40%;width:100%}
+  .hero-badge{position:absolute;left:-22px;bottom:28px;background:#fff;border-radius:16px;padding:14px 18px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px;font-size:.88rem;max-width:260px}
+  .hero-badge i{width:42px;height:42px;border-radius:12px;background:var(--slate-soft);display:grid;place-items:center;flex:none;color:var(--navy)}
+  .hero-badge i svg{width:22px;height:22px}
+  .hero-badge b{display:block;color:var(--navy)}
+  @media(max-width:900px){
+    .hero-grid{grid-template-columns:1fr;gap:36px}
+    .hero-photo{order:-1}
+    .hero-badge{left:12px;bottom:-22px}
+    .hero{padding-top:28px}
+  }
+
+  /* Faixa */
+  .strip{background:var(--navy);color:#dfe8ef;padding:30px 0}
+  .strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  .strip-item{display:flex;gap:12px;align-items:flex-start;font-size:.93rem}
+  .strip-item svg{width:24px;height:24px;flex:none;color:#8ec5e2;margin-top:2px}
+  .strip-item b{color:#fff;display:block}
+  @media(max-width:900px){.strip-grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.strip-grid{grid-template-columns:1fr}}
+
+  /* Especialidades */
+  .section-head{margin-bottom:46px}
+  .spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .card{background:#fff;border:1px solid rgba(15,42,74,.08);border-radius:var(--radius);padding:30px;transition:transform .25s,box-shadow .25s}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .card .ico{width:52px;height:52px;border-radius:14px;background:var(--slate-soft);color:var(--navy);display:grid;place-items:center;margin-bottom:18px}
+  .card .ico svg{width:26px;height:26px}
+  .card h3{margin-bottom:10px}
+  .card p{color:var(--muted);font-size:.97rem}
+  .card ul{list-style:none;margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .card li{font-size:.8rem;font-weight:600;color:var(--slate);background:var(--slate-soft);padding:5px 11px;border-radius:999px}
+  .card.wide{grid-column:span 2}
+  .card .who{margin-top:16px;font-size:.86rem;font-weight:600;color:var(--navy)}
+  @media(max-width:900px){.spec-grid{grid-template-columns:1fr 1fr}.card.wide{grid-column:span 2}}
+  @media(max-width:620px){.spec-grid{grid-template-columns:1fr}.card.wide{grid-column:auto}}
+
+  /* Obesidade */
+  .obes{background:linear-gradient(160deg,var(--navy) 0%,var(--slate) 100%);color:#e4ecf1;position:relative;overflow:hidden}
+  .obes::after{content:"";position:absolute;right:-180px;top:-180px;width:520px;height:520px;border-radius:50%;border:60px solid rgba(255,255,255,.04)}
+  .obes h2{color:#fff}
+  .obes .eyebrow{color:#8ec5e2}
+  .obes .lead{color:#c7d5de}
+  .obes-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:60px;align-items:center;position:relative;z-index:1}
+  .pillars{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .pillar{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:22px}
+  .pillar b{display:block;color:#fff;font-size:1.02rem;margin-bottom:4px}
+  .pillar span{font-size:.9rem;color:#bccbd5}
+  .pillar svg{width:24px;height:24px;color:#8ec5e2;margin-bottom:12px}
+  .obes .btn{margin-top:28px}
+  .obes-note{font-size:.8rem;color:#9fb1bd;margin-top:16px}
+  @media(max-width:900px){.obes-grid{grid-template-columns:1fr;gap:36px}}
+  @media(max-width:480px){.pillars{grid-template-columns:1fr}}
+
+  /* Equipe */
+  .team-top{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center;margin-bottom:50px}
+  .team-top img{border-radius:22px;box-shadow:var(--shadow);aspect-ratio:16/11;object-fit:cover;object-position:50% 40%}
+  .team-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+  .member{background:#fff;border:1px solid rgba(15,42,74,.08);border-radius:16px;padding:24px 18px;text-align:center}
+  .avatar{width:64px;height:64px;border-radius:50%;margin:0 auto 14px;background:var(--navy);color:#fff;display:grid;place-items:center;font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:700;letter-spacing:.02em}
+  .member b{display:block;color:var(--navy);font-size:1rem;line-height:1.3;margin-bottom:6px}
+  .member span{font-size:.85rem;color:var(--muted);line-height:1.4;display:block}
+  @media(max-width:1000px){.team-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:900px){.team-top{grid-template-columns:1fr;gap:30px}}
+  @media(max-width:560px){.team-grid{grid-template-columns:1fr 1fr}}
+
+  /* Passos */
+  .steps-sec{background:var(--slate-soft)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;counter-reset:s}
+  .step{background:#fff;border-radius:var(--radius);padding:30px;position:relative}
+  .step::before{counter-increment:s;content:"0" counter(s);font-family:"Cormorant Garamond",serif;font-size:2.6rem;font-weight:700;color:var(--silver);line-height:1;display:block;margin-bottom:12px}
+  .step b{display:block;color:var(--navy);font-size:1.1rem;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:.96rem}
+  @media(max-width:820px){.steps{grid-template-columns:1fr}}
+
+  /* Contato */
+  .contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:stretch}
+  .contact-list{list-style:none;display:grid;gap:18px;margin:26px 0 30px}
+  .contact-list li{display:flex;gap:14px;align-items:flex-start}
+  .contact-list i{width:44px;height:44px;border-radius:12px;background:var(--slate-soft);color:var(--navy);display:grid;place-items:center;flex:none}
+  .contact-list i svg{width:22px;height:22px}
+  .contact-list small{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700}
+  .contact-list a,.contact-list p{font-weight:600;color:var(--navy)}
+  .map{border-radius:22px;overflow:hidden;box-shadow:var(--shadow);min-height:380px;background:var(--slate-soft)}
+  .map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+  @media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
+
+  /* CTA final */
+  .final{padding:0 0 88px}
+  .final-box{background:var(--navy);border-radius:28px;padding:56px 40px;text-align:center;color:#d6e1e9}
+  .final-box h2{color:#fff;margin-bottom:12px}
+  .final-box p{max-width:560px;margin:0 auto 28px}
+  .final-box .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+  /* Footer */
+  footer{border-top:1px solid rgba(15,42,74,.1);padding:34px 0 100px;font-size:.88rem;color:var(--muted)}
+  .foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
+  .foot a{color:var(--navy);font-weight:600}
+
+  /* WhatsApp flutuante */
+  .wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(31,168,85,.8);transition:transform .2s}
+  .wa-float:hover{transform:scale(1.07)}
+  .wa-float svg{width:32px;height:32px}
+
+  /* Animação de entrada */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.on{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<!-- Ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01Zm-7.01 15.24h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-6"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2v6a5 5 0 0 0 10 0V2"/><path d="M10 13v2a6 6 0 0 0 12 0v-3"/><circle cx="22" cy="10" r="0.01"/><circle cx="21.9" cy="10" r="2"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z"/><path d="M2 21c0-3 1.9-5.4 5.2-6.1A20 20 0 0 1 13 13"/></g></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7 15h10"/></g></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 9a5 5 0 0 1 8 0"/><path d="m12 9 1.5-1.5"/></g></symbol>
+    <symbol id="i-pill" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></g></symbol>
+    <symbol id="i-nurse" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v8M8 12h8"/><rect x="3" y="3" width="18" height="18" rx="5"/></g></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#topo" class="logo" aria-label="Clínica Del Penho — início">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round"><path d="M34 8.5A19 19 0 1 0 34 39.5" stroke-width="4"/><path d="M31 15a11.5 11.5 0 1 0 0 18" stroke-width="3.2" opacity=".7"/><path d="M28.5 20.5a5 5 0 1 0 0 7" stroke-width="2.6" opacity=".45"/></g></svg>
+      <span><b>Del Penho</b><small>Clínica Médica e Nutricional</small></span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#especialidades">Especialidades</a>
+      <a href="#obesidade">Tratamento da obesidade</a>
+      <a href="#corpo-clinico">Corpo clínico</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta."><svg><use href="#i-wa"/></svg><span>Agendar consulta</span></a>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <span class="eyebrow">Clínica médica e multidisciplinar · Muriaé</span>
+        <h1>Saúde, cuidado e confiança <em>há mais de 40 anos.</em></h1>
+        <p class="lead">Uma equipe de médicos, nutrição e enfermagem trabalhando junta para cuidar de você com atenção, segurança e acompanhamento de perto — do diagnóstico ao tratamento.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta."><svg><use href="#i-wa"/></svg>Agendar pelo WhatsApp</a>
+          <a class="btn btn-ghost" href="tel:+553237214123"><svg><use href="#i-phone"/></svg>(32) 3721-4123</a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>+40</strong><span>anos de história</span></div>
+          <div><strong>5</strong><span>áreas de cuidado</span></div>
+          <div><strong>1</strong><span>equipe integrada</span></div>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <img src="img/equipe-hero.jpg" alt="Equipe da Clínica Del Penho reunida em frente ao logotipo da clínica" width="1616" height="1080" fetchpriority="high">
+        <div class="hero-badge">
+          <i><svg><use href="#i-heart"/></svg></i>
+          <div><b>Cuidado de família</b>Atendimento próximo, de geração em geração.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAIXA DE CONFIANÇA -->
+  <div class="strip">
+    <div class="wrap strip-grid">
+      <div class="strip-item"><svg><use href="#i-clock"/></svg><div><b>Mais de 40 anos</b>de cuidado em Muriaé</div></div>
+      <div class="strip-item"><svg><use href="#i-team"/></svg><div><b>Equipe multidisciplinar</b>médicos, nutrição e enfermagem</div></div>
+      <div class="strip-item"><svg><use href="#i-shield"/></svg><div><b>Procedimentos ambulatoriais</b>sem internação e sem anestesia geral</div></div>
+      <div class="strip-item"><svg><use href="#i-chart"/></svg><div><b>Bioimpedância semanal</b>no tratamento da obesidade</div></div>
+    </div>
+  </div>
+
+  <!-- ESPECIALIDADES -->
+  <section id="especialidades">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Especialidades</span>
+        <h2>Cuidado completo, em um só lugar</h2>
+        <p class="lead">Áreas que conversam entre si para olhar para você por inteiro — e não só para um sintoma.</p>
+      </div>
+      <div class="spec-grid">
+        <article class="card wide reveal">
+          <div class="ico"><svg><use href="#i-steth"/></svg></div>
+          <h3>Coloproctologia</h3>
+          <p>Tratamento preventivo e terapêutico da saúde intestinal e das doenças que acometem o reto e o ânus. Procedimentos realizados em ambiente ambulatorial, <strong>sem necessidade de internação e sem anestesia geral</strong>.</p>
+          <ul><li>Hemorroidas</li><li>Fístulas</li><li>Prolapsos</li><li>Tromboses hemorroidárias</li><li>Saúde intestinal</li></ul>
+          <p class="who">Dr. Renato Del Penho Pereira</p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg><use href="#i-scale"/></svg></div>
+          <h3>Tratamento da Obesidade</h3>
+          <p>Emagrecimento com suporte médico, nutricional e de enfermagem, com avaliações semanais por bioimpedância.</p>
+          <p class="who"><a href="#obesidade" style="color:var(--accent)">Conheça o programa →</a></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg><use href="#i-flask"/></svg></div>
+          <h3>Endocrinologia e Nutrologia</h3>
+          <p>Diagnóstico e acompanhamento de alterações hormonais e metabólicas, como diabetes, tireoide e obesidade.</p>
+          <p class="who">Dra. Talita</p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg><use href="#i-leaf"/></svg></div>
+          <h3>Nutrição</h3>
+          <p>Orientação alimentar individualizada, integrada ao acompanhamento médico de cada paciente.</p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg><use href="#i-heart"/></svg></div>
+          <h3>Clínica Geral</h3>
+          <p>Consultas, check-up e acompanhamento da saúde do adulto, com olhar atento ao todo.</p>
+          <p class="who">Dr. Renato Del Penho Filho</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBESIDADE -->
+  <section id="obesidade" class="obes">
+    <div class="wrap obes-grid">
+      <div class="reveal">
+        <span class="eyebrow">Centro de Tratamento da Obesidade</span>
+        <h2>Emagrecer com segurança, acompanhado de perto</h2>
+        <p class="lead">Um programa pautado em segurança e em resultado sustentável. Você não fica sozinho: médico, nutrição e enfermagem acompanham cada etapa e ajustam o plano conforme a sua evolução.</p>
+        <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e quero saber mais sobre o Centro de Tratamento da Obesidade."><svg><use href="#i-wa"/></svg>Quero saber mais</a>
+        <p class="obes-note">O tratamento é individualizado e definido após avaliação médica.</p>
+      </div>
+      <div class="pillars reveal">
+        <div class="pillar"><svg><use href="#i-steth"/></svg><b>Suporte médico</b><span>Avaliação e acompanhamento clínico durante todo o processo.</span></div>
+        <div class="pillar"><svg><use href="#i-leaf"/></svg><b>Suporte nutricional</b><span>Plano alimentar pensado para a sua rotina.</span></div>
+        <div class="pillar"><svg><use href="#i-nurse"/></svg><b>Enfermagem</b><span>Cuidado próximo e orientação entre as consultas.</span></div>
+        <div class="pillar"><svg><use href="#i-pill"/></svg><b>Medicação, quando indicada</b><span>Prescrita e monitorada pela equipe médica.</span></div>
+        <div class="pillar" style="grid-column:1/-1"><svg><use href="#i-chart"/></svg><b>Bioimpedância toda semana</b><span>Você acompanha a evolução de gordura, massa magra e água corporal — não só o peso na balança.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPO CLÍNICO -->
+  <section id="corpo-clinico">
+    <div class="wrap">
+      <div class="team-top">
+        <div class="reveal">
+          <span class="eyebrow">Corpo clínico</span>
+          <h2>Quem cuida de você</h2>
+          <p class="lead">Uma equipe que une a experiência de mais de quatro décadas com a atualização constante de uma nova geração de profissionais.</p>
+        </div>
+        <img class="reveal" src="img/equipe-recepcao.jpg" alt="Corpo clínico na recepção da Clínica Del Penho" width="1616" height="1080" loading="lazy">
+      </div>
+      <div class="team-grid">
+        <div class="member reveal"><div class="avatar">RP</div><b>Dr. Renato Del Penho Pereira</b><span>Coloproctologia e Nutrição</span></div>
+        <div class="member reveal"><div class="avatar">G</div><b>Dra. Giovana De Tonel</b><span>Especialidade</span></div>
+        <div class="member reveal"><div class="avatar">T</div><b>Dra. Talita</b><span>Endocrinologia e Nutrologia</span></div>
+        <div class="member reveal"><div class="avatar">RF</div><b>Dr. Renato Del Penho Filho</b><span>Clínica Geral</span></div>
+        <div class="member reveal"><div class="avatar">ML</div><b>Maria de Lourdes</b><span>Enfermeira</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO AGENDAR -->
+  <section class="steps-sec">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Como agendar</span>
+        <h2>Simples, rápido e sem fila</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><b>Chame no WhatsApp</b><p>Toque no botão e fale direto com a nossa recepção.</p></div>
+        <div class="step reveal"><b>Escolha o melhor horário</b><p>Informamos a especialidade, os horários disponíveis e tiramos suas dúvidas.</p></div>
+        <div class="step reveal"><b>Venha para a consulta</b><p>Receba atendimento com calma, atenção e um plano pensado para você.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Onde estamos</span>
+        <h2>Venha nos visitar</h2>
+        <ul class="contact-list">
+          <li><i><svg><use href="#i-pin"/></svg></i><div><small>Endereço</small><p>Rua São Pedro, 192 — Muriaé/MG</p></div></li>
+          <li><i><svg><use href="#i-phone"/></svg></i><div><small>Telefone</small><a href="tel:+553237214123">(32) 3721-4123</a></div></li>
+          <li><i><svg><use href="#i-wa"/></svg></i><div><small>WhatsApp</small><a class="js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta.">(32) 98828-4425</a></div></li>
+        </ul>
+        <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta."><svg><use href="#i-wa"/></svg>Agendar sua consulta</a>
+      </div>
+      <div class="map reveal">
+        <iframe title="Mapa: Clínica Del Penho, Rua São Pedro, 192, Muriaé" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Cl%C3%ADnica%20Del%20Penho%2C%20Rua%20S%C3%A3o%20Pedro%2C%20192%2C%20Muria%C3%A9%20-%20MG&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <div class="final">
+    <div class="wrap">
+      <div class="final-box reveal">
+        <h2>Sua saúde merece atenção de verdade</h2>
+        <p>Fale com a nossa equipe e agende sua consulta. Estamos prontos para te receber.</p>
+        <div class="btns">
+          <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta."><svg><use href="#i-wa"/></svg>Agendar pelo WhatsApp</a>
+          <a class="btn btn-light" href="tel:+553237214123"><svg><use href="#i-phone"/></svg>Ligar agora</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <b style="color:var(--navy)">Clínica Del Penho</b> — Clínica Médica e Nutricional<br>
+      Rua São Pedro, 192 · Muriaé/MG · (32) 3721-4123<br>
+      <!-- Exigência CFM: preencher nome e CRM do responsável técnico -->
+      Responsável técnico: Dr. Renato Del Penho Pereira · CRM-MG 00000
+    </div>
+    <div>
+      <a href="https://www.instagram.com/clinica.delpenho/" target="_blank" rel="noopener">@clinica.delpenho</a><br>
+      © <span id="ano">2026</span> Clínica Del Penho
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="#" data-msg="Olá! Vim pelo site e gostaria de agendar uma consulta." aria-label="Falar no WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script>
+  // Número do WhatsApp da clínica (somente dígitos, com DDI 55)
+  const WHATSAPP = "5532988284425";
+  document.querySelectorAll(".js-wa").forEach(a => {
+    const msg = a.dataset.msg || "Olá! Vim pelo site e gostaria de agendar uma consulta.";
+    a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
+    a.target = "_blank";
+    a.rel = "noopener";
+  });
+
+  document.getElementById("ano").textContent = new Date().getFullYear();
+
+  // Animação ao rolar
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("on"); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+</script>
+</body>
+</html>
